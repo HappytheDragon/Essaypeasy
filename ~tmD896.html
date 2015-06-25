@@ -1,0 +1,93 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+   padding: 0;
+   margin: 0;
+   overflow-y: scroll;
+   font-family: Arial;
+   font-size: 18px;
+}
+#nav{
+   background-color: #0276FD
+}
+#nav_wrapper{
+   width: 960px; 
+   margin: 0 auto;
+   text-align: center;
+}
+#nav ul{
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   position: relative
+}
+#nav ul li{
+   display: inline-block;
+}
+#nav ul li:hover{
+   background-color: #0000B2;
+}
+#nav ul li a,visited{
+   color: #ccc;
+   display: block;
+   padding: 15px;
+   text-decoration: none;
+}
+#nav ul li a:hover{
+   color: #ccc;
+   text-decoration: none;
+}
+#nav ul li:hover ul{
+   display: block;
+}
+#nav ul ul{
+   display: none;
+   position: absolute;
+   background-color: #0000B2;
+   border: 5px solid #0276FD;
+   border-top: 0;
+   margin-left: -5px;
+   min-width: 200px;
+}
+#nav ul ul li{
+   display: block;
+}
+#nav ul ul li a,visited{
+   color: #ccc;
+}
+#nav ul ul li a:hover{
+   color: #099;
+</style>
+</head>
+<body>
+   <div id="nav">
+   <div id="nav_wrapper">
+       <ul>
+          <li><a href=#>Main Page</a>
+          </li>
+          <li><a href=#>Support</a>
+          <ul>
+                <a href="#">Contact Us</a></li><li>
+                <a href="#">FAQ</a></li>
+               </li>
+             </ul>
+		 <li> <a href=#>Hubs</a>
+             <ul>
+                <li><a href="#">Job Board</a></li><li>
+                <a href="#">Submissions</a></li>
+               
+             </ul>
+          </li>
+          <li><a href=#>Profile</a>
+             <ul>
+                <li><a href="#">My Profile</a></li><li>
+                <a href="#">My Submissions</a></li><li>
+                <a href="#">My Jobs</a></li><li>
+				<a href="#">Logout<a/>
+             </ul>
+          </li>
+      </ul>
+</body>
+</html>
