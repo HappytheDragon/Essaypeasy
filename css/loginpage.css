@@ -1,0 +1,28 @@
+#header {
+    background-color:0276FD;
+    color:White;
+    text-align:center;
+    padding:5px;
+height:75px;
+}
+#nag {
+    line-height:20px;
+    background-color:#ffffff;
+    height:550px;
+    width:300px;
+    float:left;
+    padding:15px;	      
+}
+#section {
+    width:300px;
+    float:right;
+    padding:10px;	 	 
+}
+#bottom {
+background-color:0276FD;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;
+   height:75px;	
+}
