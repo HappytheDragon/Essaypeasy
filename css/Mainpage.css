@@ -6,14 +6,45 @@ background-color:#0276FD;
     text-align:center;
    padding:5px;
    height:48px;
+   width:100%;
 }
 #button1 {
-color:white;
 text-align:center;
+color:white;
 background-color:#0276FD;
 width:100px;
 height:75px;
+float:right;
+padding-top:38px;
+margin-right:25%;
  }
+ 
+ #button1 a:link, #button1 a:visited {color:white;
+ text-decoration:none; }
+ 
  #button1:hover {
- color:#FFFF00;
- background-color:#0000B2 }
+ background-color:#0000B2;
+ }
+ #button1 a:hover {color:#ffff00; }
+ 
+ 
+ #button2 {
+text-align:center;
+color:white;
+background-color:#0276FD;
+width:100px;
+height:75px;
+float:left;
+padding-top:38px;
+margin-left:25%;
+ }
+ 
+ #button2 a:link, #button2 a:visited {color:white;
+ text-decoration:none; }
+ 
+ #button2:hover {
+ background-color:#0000B2;
+ }
+ #button2 a:hover {color:#ffff00; }
+ 
+ 
